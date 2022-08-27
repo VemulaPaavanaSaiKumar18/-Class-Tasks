@@ -162,7 +162,7 @@ form[name="form-details"] .form-icon {
     display: none;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .container {
     flex-direction: column;
     align-items: center;
