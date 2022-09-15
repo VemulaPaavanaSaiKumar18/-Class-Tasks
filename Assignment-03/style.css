@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.header-text-box {
+  font-size: 19px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-top: 48px;
+  margin-bottom: 75px;
+}
+
+.header-text-box {
+  justify-content: center;
+}
+
+h1 {
+  line-height: 1.1cm;
+  letter-spacing: -1px;
+}
+
+.header-text {
+  margin-top: 38px;
+  margin-bottom: 35px;
+  line-height: 1.5;
+  color: #4c5157;
+}
+.shop-chairs {
+  color: white;
+  background: #087f5b;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  padding: 16px 30px;
+  text-decoration: none;
+}
+
+.chair-img {
+  border-radius: 15px;
+}
+img {
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  font-size: 37px;
+}
+
+section {
+  margin-top: 3rem;
+}
+.feather-icon {
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.feather-icon1 {
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  margin-bottom: 16px;
+  transform: translatey(77%);
+}
+.parasection {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.parasections {
+  line-height: 1.9;
+  color: #3e444a;
+  font-weight: 500;
+}
+
+.grid-colum-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5rem;
+}
+
+.grid-colum-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5rem;
+}
+.customer-box {
+  background: #087f5b;
+  color: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+.mary {
+  color: #99dfc8;
+}
+.text-box {
+  grid-column: 2/-1;
+  margin-top: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.customer-text {
+  font-style: italic;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+h4 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+span {
+  font-weight: 600;
+  padding-left: 2.6rem;
+}
+.chair-price {
+  display: flex;
+  gap: 3rem;
+  padding-left: 2.7rem;
+}
+.chairs-list {
+  margin-bottom: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.chair-details {
+  list-style: none;
+  margin-bottom: 28px;
+  line-height: 1.6;
+  padding-left: 2.7rem;
+}
+strong {
+  font-weight: 800;
+}
+
+.card-button {
+  border-radius: 2rem;
+  text-decoration: none;
+  color: white;
+  background-color: #087f5b;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+}
+.list-items {
+  display: flex;
+  gap: 5rem;
+  margin-top: 2rem;
+}
+.add-shadow {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 500px) {
+  header {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 6rem;
+    line-height: 3.1cm;
+  }
+  .header-text {
+    margin-top: 57px;
+    margin-bottom: 78px;
+    font-size: 4rem;
+  }
+  .shop-chairs {
+    border-radius: 3rem;
+    padding: 26px 69px;
+    font-size: 5rem;
+  }
+  img {
+    width: 50rem;
+    height: 50rem;
+    margin-top: 6rem;
+    padding-left: 1rem;
+  }
+}

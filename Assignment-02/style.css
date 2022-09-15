@@ -9,8 +9,65 @@ html body {
 }
 .item-boder {
   border: 4px solid #101010;
-  width: 45rem;
+  width: 50rem;
   margin: 50px auto;
+  position: relative;
+}
+.sale {
+  background-color: red;
+  padding: 7px 15px;
+  letter-spacing: 2px;
+  position: absolute;
+  top: -14px;
+  left: -23px;
+  font-weight: bold;
+  color: #f7f7f7;
+  font-size: 13px;
+}
+.colors {
+  margin-top: 1rem;
+}
+.item-colors1 {
+  display: inline-block;
+  background-color: #101010;
+  width: 26px;
+  height: 24px;
+  margin-right: 10px;
+}
+.item-colors2 {
+  display: inline-block;
+  background-color: #317a59;
+  width: 26px;
+  height: 24px;
+  margin-right: 10px;
+}
+.item-colors3 {
+  display: inline-block;
+  background-color: #ba0e0e;
+  width: 26px;
+  height: 24px;
+  margin-right: 10px;
+}
+.item-colors4 {
+  display: inline-block;
+  background-color: #32179f;
+  width: 26px;
+  height: 24px;
+  margin-right: 10px;
+}
+.item-colors5 {
+  display: inline-block;
+  background-color: #c3712a;
+  width: 26px;
+  height: 24px;
+  margin-right: 10px;
+}
+.item-colors6 {
+  display: inline-block;
+  background-color: #2cbb84;
+  width: 26px;
+  height: 24px;
+  margin-right: 10px;
 }
 
 .item-name {
@@ -21,19 +78,23 @@ html body {
   background-color: #f7f7f7;
 }
 .item-image {
-  width: 20rem;
+  width: 17rem;
   height: 16rem;
+  float: left;
 }
 .item-price {
   font-size: 25px;
   color: black;
+  float: left;
 }
 .item-status {
   color: #7a7979;
+  float: right;
+  padding-top: 5px;
 }
 .item-discription {
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: 36px;
   color: #101010;
 }
 .item-info,
@@ -43,12 +104,13 @@ html body {
 .item-details {
   font-size: 27px;
   font-weight: bold;
-  margin-top: 1rem;
+  margin-left: 1rem;
 }
 .item-list {
   padding-left: 2rem;
   font-weight: 400;
   font-size: 17px;
+  line-height: 1cm;
 }
 .click-card {
   color: #f7f7f7;
@@ -63,4 +125,17 @@ html body {
 .click-card:hover {
   background-color: #f7f7f7;
   color: #101010;
+}
+
+.flotside {
+  float: left;
+  width: 15rem;
+  height: 16rem;
+  margin-left: 2rem;
+}
+
+.itemdata {
+  float: right;
+  width: 15rem;
+  height: 16rem;
 }
