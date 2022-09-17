@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  width: 960px;
+  width: 63rem;
   margin: 0 auto;
 }
 .header-text-box {
@@ -180,7 +180,6 @@ strong {
   header {
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 6rem;
     margin-bottom: 6rem;
     font-size: 1rem;
   }
@@ -189,7 +188,7 @@ strong {
     line-height: 5cm;
   }
   .container {
-    width: 101rem;
+    width: fit-content;
   }
   .header-text {
     margin-top: 110px;
@@ -225,8 +224,12 @@ strong {
     font-size: 6rem;
   }
   .grid-colum-3 {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+  .just-img {
+    width: 90rem;
+    height: 80rem;
   }
   h3 {
     font-size: 8rem;
