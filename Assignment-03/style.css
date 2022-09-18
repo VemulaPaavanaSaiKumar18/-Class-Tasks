@@ -264,7 +264,8 @@ strong {
     font-size: 3rem;
   }
   .space {
-    width: 91rem;
+    width: 61rem;
+    margin: 0 auto;
   }
   .feather-icon1 {
     width: 5rem;
