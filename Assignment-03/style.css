@@ -12,6 +12,11 @@ body {
   width: 63rem;
   margin: 0 auto;
 }
+
+.container--fix {
+  width: 1000px;
+  margin: 47 auto;
+}
 .header-text-box {
   font-size: 19px;
 }
@@ -22,6 +27,7 @@ header {
   column-gap: 80px;
   margin-top: 48px;
   margin-bottom: 75px;
+  /* height: 100vh; */
 }
 
 .header-text-box {
@@ -46,6 +52,7 @@ h1 {
   border-radius: 2rem;
   padding: 16px 30px;
   text-decoration: none;
+  display: inline-block;
 }
 
 .chair-img {
@@ -184,28 +191,26 @@ strong {
     font-size: 1rem;
   }
   h1 {
-    font-size: 8rem;
-    line-height: 5cm;
-  }
-  .container {
-    width: fit-content;
+    font-size: 44px;
+    line-height: 2cm;
   }
   .header-text {
-    margin-top: 110px;
-    margin-bottom: 140px;
-    font-size: 7rem;
+    margin-top: 40px;
+    margin-bottom: 56px;
+    font-size: 2rem;
   }
   .shop-chairs {
-    margin-left: 18rem;
-    border-radius: 11rem;
+    margin-left: 14rem;
+    border-radius: 120px;
     padding: 44px 103px;
-    font-size: 7rem;
+    font-size: 3rem;
+    text-align: center;
   }
   img {
-    margin-top: 12rem;
+    margin-top: 4rem;
   }
   h2 {
-    font-size: 8rem;
+    font-size: 4rem;
     margin-bottom: 3rem;
   }
   .grid-colum-2 {
@@ -213,61 +218,70 @@ strong {
     grid-template-columns: 1fr;
   }
   .feather-icon {
-    width: 10rem;
-    height: 10rem;
+    width: 5rem;
+    height: 5rem;
     margin-bottom: 16px;
   }
   .parasection {
-    font-size: 7rem;
+    font-size: 4rem;
   }
   .parasections {
-    font-size: 6rem;
+    font-size: 2rem;
   }
   .grid-colum-3 {
     display: flex;
     flex-direction: column;
   }
   .just-img {
-    width: 90rem;
-    height: 80rem;
+    width: 59.4rem;
+    height: 40rem;
   }
   h3 {
-    font-size: 8rem;
-    margin-top: 5rem;
+    font-size: 40px;
+    margin-top: 2rem;
   }
   .mary {
-    font-size: 7rem;
+    font-size: 2rem;
+    padding-bottom: 1rem;
   }
   .text-box {
-    font-size: 6rem;
+    font-size: 2rem;
   }
   h4 {
-    font-size: 9rem;
+    font-size: 5rem;
   }
   .list-items {
     flex-direction: column;
   }
+  .set-sec {
+    display: flex;
+    flex-direction: column;
+  }
   span {
-    font-size: 7rem;
+    font-size: 5rem;
   }
   .chair-details {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   .space {
     width: 91rem;
   }
   .feather-icon1 {
-    width: 10rem;
-    height: 10rem;
-    transform: translatey(42%);
+    width: 5rem;
+    height: 5rem;
+    transform: translatey(48%);
+  }
+  .chairs-list {
+    width: 59.4rem;
+    height: 40rem;
   }
   strong {
-    font-size: 8rem;
+    font-size: 5rem;
   }
   .card-button {
     border-radius: 15rem;
     padding: 33px 52px;
-    font-size: 4.5rem;
+    font-size: 2rem;
     font-weight: 800;
   }
 }
