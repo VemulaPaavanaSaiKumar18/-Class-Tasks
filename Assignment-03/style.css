@@ -13,10 +13,10 @@ body {
   margin: 0 auto;
 }
 
-.container--fix {
+/* .container--fix {
   width: 1000px;
   margin: 47 auto;
-}
+} */
 .header-text-box {
   font-size: 19px;
 }
