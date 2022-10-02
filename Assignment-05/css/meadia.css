@@ -1,0 +1,275 @@
+/*********************************/
+/* BELOW 1344px (Smaller Desktop) */
+/*********************************/
+@media (max-width: 84em) {
+  .head {
+    max-width: 120rem;
+  }
+
+  .head-text {
+    font-size: 4.4rem;
+  }
+
+  .img-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/*********************************/
+/* BELOW 1200px (Landscape Tablets) */
+/*********************************/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+  .head-meal {
+    font-size: 3.6rem;
+  }
+  .head-element {
+    padding: 0 3.2rem;
+  }
+
+  .step-heading {
+    font-size: 2.4rem;
+  }
+  .nav-list {
+    gap: 3.2rem;
+  }
+  .head {
+    gap: 4.8rem;
+  }
+
+  .test-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .head {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+  .head-img {
+    width: 60%;
+  }
+
+  .head-text-box,
+  .head-image-box {
+    text-align: center;
+  }
+
+  .meals-deliver {
+    justify-content: center;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .step-number {
+    font-size: 7.4rem;
+  }
+
+  .meal-contain {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+  .section-tests {
+    grid-template-columns: 1fr;
+  }
+
+  .img-box {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .cta {
+    /* 3/5 = 60% + 2/5 = 40% */
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .btn--form {
+    margin-top: 1.2rem;
+  }
+
+  /* MOBILE NAVIGATION  */
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .head-nav {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Hide navigation */
+    /* Allows NO transitions at all */
+    /* display: none; */
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .head-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close"] {
+    display: none;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu"] {
+    display: block;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .nav-links:link,
+  .nav-links:visited {
+    font-size: 3rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Smaller Tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .grid--c3,
+  .grid--c4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .meals-list {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+
+  .how-text {
+    margin-bottom: 4.8rem;
+  }
+
+  .pricing-plans {
+    width: 69%;
+  }
+
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .logo-col,
+  .col-adderss {
+    grid-column: span 3;
+  }
+
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .grid--c2,
+  .grid--c3,
+  .grid--c4 {
+    grid-template-columns: 1fr;
+  }
+
+  .head {
+    padding: 0 3.2rem;
+  }
+
+  .bnt,
+  .bnt:link,
+  .bnt:visited {
+    padding: 2.4rem 1.6rem;
+  }
+
+  .head-section {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .head-img {
+    width: 80%;
+  }
+
+  .logos img {
+    height: 1.2rem;
+  }
+
+  .how-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .how-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+
+  .how-img-box {
+    transform: translateY(2.4rem);
+  }
+  .test-box {
+    grid-template-columns: 1fr;
+  }
+
+  .img-box {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
+}
