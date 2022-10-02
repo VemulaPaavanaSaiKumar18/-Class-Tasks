@@ -91,7 +91,7 @@ body {
   background: none;
   cursor: pointer;
 
-  /* display: none; */
+  display: none;
 }
 
 .icon-mobile-nav {
