@@ -1,10 +1,10 @@
 // 1. find the product of this array [1,2,3,10]
 
 const a = [1, 2, 3, 10];
-let p = 1;
-for (i = 0; i < a.length; ++i) {
-  p *= a[i];
-}
+
+let p = a.reduce((acc, cur) => {
+  return acc * cur;
+}, 1);
 console.log(p);
 /*
 2. write a function to check wheather the given value exist in the
@@ -33,19 +33,6 @@ target nested object or not
 /*
 3. write a function to flatten the nested array shown below (Don't use array.flat method)
 */
-
-// const b = [1, 2, 3, [4, 5, 6, [7, 8, 9], 0, [1, 2, [3]]]];
-function flatten(arr) {
-  return arr.reduce(
-    (acc, cur) => acc.concat(Array.isArray(cur) ? flatten(cur) : cur),
-    []
-  );
-}
-
-const b = [1, 2, 3, [4, 5, 6, [7, 8, 9], 0, [1, 2, [3]]]];
-
-const flattened = flatten(b);
-console.log(flattened);
 
 /*
 4. write a function that will take array as input and return duplicate values
