@@ -9,10 +9,14 @@ table {
   margin-top: 50px;
   border-radius: 20px;
 }
+/* .head {
+  display: flex;
+} */
 th,
 td {
   padding: 20px 40px;
   border-radius: 20px;
+  border: 1px solid black;
   color: #000000;
 }
 
