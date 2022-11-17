@@ -1,0 +1,28 @@
+body {
+  background-color: #cbeffd;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: auto;
+  background-color: #b8ddf6;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+th,
+td {
+  padding: 20px 40px;
+  border-radius: 20px;
+  color: #000000;
+}
+
+.button {
+  transition: all 0.7s;
+}
+.button:hover,
+.button:active {
+  background-color: rgb(147, 183, 241);
+  cursor: pointer;
+  color: rgb(231, 0, 0);
+  font-weight: 700;
+}
