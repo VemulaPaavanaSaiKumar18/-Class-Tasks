@@ -12,21 +12,16 @@ const tbody = document.createElement("tbody");
 
 table.append(thead, tbody);
 
-// Adding the entire table to the body tag
 document.getElementById("body").appendChild(table);
 
-// Creating and adding data to first row of the table
 let row_1 = document.createElement("tr");
-let heading_1 = document.createElement("th");
-heading_1.innerHTML = "FirstName";
-let heading_2 = document.createElement("th");
-heading_2.innerHTML = "LastName";
-let heading_3 = document.createElement("th");
-heading_3.innerHTML = "Age";
-let heading_4 = document.createElement("th");
-heading_4.innerHTML = "Button";
 
-row_1.append(heading_1, heading_2, heading_3, heading_4);
+let headings = ["FirstName", "LastName", "Age", "Button"];
+headings.forEach((item) => {
+  let heading = document.createElement("th");
+  heading.innerHTML = item;
+  row_1.append(heading);
+});
 thead.appendChild(row_1);
 
 data.forEach((item) => {
