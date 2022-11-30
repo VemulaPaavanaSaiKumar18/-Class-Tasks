@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+.form--hidden,
+.welcome-hidden {
+  display: none;
+}
+
+.form-container {
+  text-align: center;
+  margin: 100px auto 0 auto;
+  border: 2px solid black;
+  max-width: 400px;
+}
+
+.home-page {
+  position: relative;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  color: white;
+  background-color: black;
+}
+
+.logout {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  padding: 10px 20px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.logIn-box,
+.signUp-box {
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+  margin: auto;
+}

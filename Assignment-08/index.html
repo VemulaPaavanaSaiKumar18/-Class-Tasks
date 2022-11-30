@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form action="/" id="login" class="form-container">
+      <h1 class="form__title">Login</h1>
+      <div class="logIn-box d-flex">
+        <input id="email1" type="email" placeholder="Enter email" />
+        <input id="password1" type="password" placeholder="Enter password" />
+        <button type="submit" id="linkWelcome">login</button>
+        <a href="#">Forgot password?</a>
+      </div>
+      <div>
+        <p>
+          Don't have an account?<a href="#" id="linkCreateAccount">signup</a>
+        </p>
+      </div>
+    </form>
+    <form action="/" id="createAccount" class="form--hidden form-container">
+      <h1 class="form__title">signup</h1>
+      <div class="signUp-box d-flex">
+        <input id="name" type="name" placeholder="Enter name" />
+        <input id="email2" type="email" placeholder="Enter email" />
+        <input id="password2" type="password" placeholder="Enter password" />
+        <button type="submit" id="linkSignup">signup</button>
+      </div>
+      <div>
+        <p>Already have an account?<a href="#" id="linkLogin">Login</a></p>
+      </div>
+    </form>
+    <section id="welcome-section" class="welcome-hidden home-page">
+      <strong>WELCOME TO HOME PAGE</strong>
+      <button id="linkLogout" class="logout">logout</button>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
